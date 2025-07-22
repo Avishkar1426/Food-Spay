@@ -23,7 +23,7 @@ function Navbar({setShowLogin}) {
         <ul>
           <li ><a href="/" className={menu === "Home" ? "active" : ""} onClick={()=>setMenu("Home")}>Home</a></li>
           <li><a href="#explore-menu" className={menu === "Menu" ? "active" : ""}  onClick={()=>setMenu("Menu")}>Menu</a></li>
-          <li><a href="http://localhost:5173/order" className={menu === "Order" ? "active" : ""} onClick={()=>setMenu("Order")}>Order</a></li>
+          <li><a href="/order" className={menu === "Order" ? "active" : ""} onClick={()=>setMenu("Order")}>Order</a></li>
           <li><a href="#footer" className={menu === "Contact-us" ? "active" : ""} onClick={()=>setMenu("Contact-us")}>Contact us</a></li>
         </ul>
       </nav>
