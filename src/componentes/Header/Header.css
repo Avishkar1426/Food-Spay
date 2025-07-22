@@ -1,5 +1,5 @@
 .main{
-    background: url("../public/header_img.png") no-repeat;
+    background: url("../../assets/header_img.png") no-repeat;
     height: 80vh;
     background-size: contain;
     margin: 2rem;
