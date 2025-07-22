@@ -1,0 +1,15 @@
+.food-display h2{
+    font-size: 1.5rem;
+    margin: 2rem;
+    animation: frade 2s;
+}
+
+.food-display-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+    padding: 0 2rem;
+    animation: frade 2s;
+}

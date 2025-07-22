@@ -1,0 +1,154 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:2px solid #eb9f35;
+    padding: 0 2rem;
+    height: 60px;
+    width:100%;
+}
+
+.navbar img{
+    width: 80px;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.logo h1{
+    font-size: 1.5rem;
+   word-wrap: break-word;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.search input{
+    outline: none;
+    border: 2px solid orange;
+    border-radius: 30px;
+    padding-right: 40px;
+    width:300px;
+    padding:0.4rem 0.5rem;
+}
+
+ .search .searchIcon{
+    width: 1rem;
+    position: relative;
+    right: 26px;
+}
+
+.links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.links ul li a{
+   font-size: 1rem;
+   font-family:sans-serif;
+   color:#000;
+   font-weight:400;
+   transition: 0.3s;
+}
+
+.basket{
+    position: relative;
+}
+
+.basket .dot{
+    position: absolute;
+    min-width: 8px;
+    min-height: 8px;
+    background-color: red;
+    border-radius: 5px;
+    top: 7px;
+    right: -5px;
+}
+
+.basket button{
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 1px solid #d17e0a;
+    border-radius:20px;
+    color: #d17e0a;
+    transition: 0.3s;
+    cursor: pointer;
+    white-space: nowrap;
+
+    &:hover{
+        background: #d17e0a;
+        color: #fff;
+    }
+}
+
+.basket img{
+  width:1.5rem;
+  cursor: pointer;
+}
+
+.active{
+   color: #ff7e00 !important;
+   transition: 0.3s;
+}
+
+@media screen and (max-width:942px){
+    .logo h1{
+        font-size: 1rem;
+    }
+
+    .links{
+        display:none;
+    }
+
+}
+@media screen and (max-width:542px){
+
+    .navbar{
+        padding:0 0.5rem;
+    }
+    .logo h1{
+       display:none;
+    }
+    
+    .navbar img{
+         width: 55px;
+    }
+
+    .search .searchIcon{
+    width: 15px;
+    position: relative;
+    right: 26px;
+}
+
+    .search input{
+        padding: 0.4rem;
+        width: 168px;
+    }
+
+    .links{
+        display:none;
+    }
+
+    .basket button{
+        font-size: 12px;
+        padding:0.3rem 0.75rem; 
+    }
+
+   .basket img{
+    width:1rem;
+    cursor: pointer;
+}
+}

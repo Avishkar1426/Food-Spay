@@ -1,0 +1,65 @@
+.main{
+    background: url("../public/header_img.png") no-repeat;
+    height: 80vh;
+    background-size: contain;
+    margin: 2rem;
+    position: relative;
+}
+
+.main .text-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height:50vh;
+    max-width: 700px;
+    margin: 3rem;
+    animation: frade 3s;
+}
+
+.main .text-content h1{
+    color:#fff;
+    margin-bottom:0.5rem;
+    font-size: 5rem;
+}
+.main .text-content p{
+    color:#fff;
+    margin-bottom:0.5rem
+}
+
+.viewMenu{
+    width: 100px;
+    background:#fff;
+    border: none;
+    padding:0.5rem;
+    border-radius:20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    margin-top:0.5rem;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:542px) {
+    .main{
+      display:none;
+    }
+}
+@media screen and (max-width:1024px) {
+
+    .main{
+        height: 30vh;
+    }
+    .main .text-content{
+        justify-content: flex-start;
+    }
+    .main .text-content h1{
+    color:#fff;
+    margin-bottom:0.5rem;
+    font-size: 2rem;
+}
+
+}
