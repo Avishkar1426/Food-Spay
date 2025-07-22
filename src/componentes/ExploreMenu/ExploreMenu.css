@@ -27,6 +27,7 @@
 .explore-menu-list-item p{
     text-align: center;
     margin: 0.5rem;
+    font-size: 14px;
 }
 
 .explore-menu-list-item .active{
@@ -52,7 +53,7 @@
         width: 60px !important;
     }
     .explore-menu-list-item p{
-       font-size: 10px;
+       font-size: 14px;
     }
 }
 @media screen and (max-width:1024px) {
@@ -72,6 +73,6 @@
         width: 120px;
     }
     .explore-menu-list-item p{
-       font-size: 10px;
+       font-size: 14px;
     }
 }
