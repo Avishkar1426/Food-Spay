@@ -1,12 +1,28 @@
-# React + Vite
+# 🍔 Food Spay - Food Delivery (Frontend Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive frontend React application for browsing and ordering food. Includes multiple food categories and an **Add to Cart** system with dynamic pricing.  
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Food categories: Salads, Rolls, Desserts, Sandwiches, etc.  
+- Filter foods based on category  
+- **Add to Cart functionality**: shows food image, name, quantity, price, and total  
+- Responsive login & signup popup  
+- Mobile-first responsive navigation bar  
+- (Future plan) Backend & database integration  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack
+- **Frontend:** React, React Router, Context API, CSS  
+- **Version Control:** Git & GitHub  
 
-## Expanding the ESLint configuration
+## 💡 Challenges & Learnings
+- Learned how to use **Context API** to share data between components  
+- Implemented **React Router** for navigation  
+- Practiced dynamic rendering of cart items and total calculation  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+Not added screenshot yet
+
+## 🔮 Future Scope
+- Connect with backend (Node.js + MongoDB)  
+- Add user authentication & order history  
+- Online payments integration  
